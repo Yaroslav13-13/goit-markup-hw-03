@@ -154,6 +154,11 @@ a {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+
+.contacts-item{
+padding: 32px 16px;
+}
+
 .taste-title {
   font-weight: 700;
   font-size: 36px;
@@ -194,6 +199,11 @@ a {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+
+.container-portfolio{
+  padding: 32px 16px;
+}
+
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
