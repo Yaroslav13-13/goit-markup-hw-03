@@ -39,7 +39,6 @@ img {
   padding: 0;
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
   border: 0;
 }
 a {
@@ -61,7 +60,6 @@ a {
   padding-top: 24px;
   padding-bottom: 24px;
   border-bottom: 1px solid #e7e9fc;
-  padding: 24px 0;
 }
 
 .header-logo .logo-part {
@@ -70,8 +68,6 @@ a {
 
 .footer-logo .logo-part {
   color: #f4f4fd;
-  display: inline-block;
-  margin-bottom: 16px;
 }
 
 .contacts {
@@ -83,6 +79,7 @@ a {
 .header-nav {
   display: flex;
   align-items: center;
+  padding: 24px 0px;
 }
 
 .header-container {
@@ -98,6 +95,11 @@ a {
 .contacts-list {
   display: flex;
   gap: 40px;
+}
+
+.nav-link,
+.contacts-link {
+  padding: 24px 0;
 }
 
 .nav-link {
@@ -188,12 +190,15 @@ a {
 }
 
 .features-list {
-  display: flex;
-  gap: 24px;
+  margin-right: 24px;
+}
+.features-item:last-child {
+  margin-right: 0;
 }
 
 .features-item {
   width: calc((100% - 3 * 24px) / 4);
+  display: flex;
   gap: 24px;
 }
 
@@ -314,6 +319,8 @@ a {
   display: block;
 }
 
+.container-features-list {
+}
 .features-list {
   display: flex;
   flex-wrap: wrap;
@@ -356,4 +363,9 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
