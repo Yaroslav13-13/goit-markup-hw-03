@@ -45,6 +45,8 @@ a {
   text-decoration: none;
 }
 
+/*---------------- HEADER -----------------*/
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -133,6 +135,8 @@ a {
   color: #404bbf;
 }
 
+/* _____________ SECTION-1_______________*/
+
 .hero {
   background-color: #2e2f42;
   padding-top: 188px;
@@ -180,6 +184,8 @@ a {
   cursor: pointer;
 }
 
+/* _____________ SECTION-2_______________*/
+
 .features {
   padding-bottom: 120px;
   padding-top: 120px;
@@ -190,7 +196,9 @@ a {
 }
 
 .features-list {
-  margin-right: 24px;
+  display: flex;
+  gap: 24px;
+  padding: 0;
 }
 .features-item:last-child {
   margin-right: 0;
@@ -217,7 +225,10 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  margin: 0;
 }
+
+/*________________ SECTION-3 _______________*/
 
 .taste {
   background-color: #f4f4fd;
@@ -278,6 +289,8 @@ a {
   text-align: center;
   color: #434455;
 }
+
+/*________________ SECTION-4_______________*/
 
 .portfolio {
   padding-top: 120px;
@@ -350,6 +363,8 @@ a {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+/*---------------- FOOTER -----------------*/
 
 .page-footer {
   background-color: #2e2f42;
