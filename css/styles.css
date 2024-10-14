@@ -197,9 +197,12 @@ a {
 
 .features-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 24px;
+  flex-basis: calc((100% - 3 * 16px) / 6);
   padding: 0;
 }
+
 .features-item:last-child {
   margin-right: 0;
 }
@@ -330,15 +333,6 @@ a {
 .portfolio-item-image {
   margin-top: 0%;
   display: block;
-}
-
-.container-features-list {
-}
-.features-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
-  flex-basis: calc((100% - 3 * 16px) / 6);
 }
 
 .portfolio-subtitle {
