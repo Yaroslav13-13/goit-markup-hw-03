@@ -50,8 +50,8 @@ a {
 }
 
 .page-header {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  /* padding-top: 24px;
+  padding-bottom: 24px; */
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -72,7 +72,7 @@ a {
 .header-nav {
   display: flex;
   align-items: center;
-  padding: 24px 0px;
+  /* padding: 24px 0px; */
 }
 
 .header-container {
@@ -101,6 +101,7 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  display: block;
 }
 
 .nav-link:hover,
@@ -145,6 +146,8 @@ a {
   color: #fff;
   margin-bottom: 48px;
   max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-btn {
@@ -209,7 +212,7 @@ a {
 
 .features-item {
   width: calc((100% - 3 * 24px) / 4);
-  display: flex;
+  /* display: flex; */
   gap: 24px;
 }
 
@@ -239,8 +242,8 @@ a {
   padding-bottom: 120px;
 }
 
-.contacts-item {
-  padding: 32px 16px;
+.container-item {
+  /* padding: 32px 16px; */
 }
 
 .taste-title {
@@ -252,7 +255,7 @@ a {
   color: #2e2f42;
   text-transform: capitalize;
   padding-bottom: 72px;
-  margin-bottom: 72px;
+  /* margin-bottom: 72px; */
 }
 
 .taste-list {
@@ -269,7 +272,7 @@ a {
 .taste-item-image {
 }
 
-.contacts-item {
+.container-item {
   padding: 32px 0;
 }
 
@@ -313,12 +316,12 @@ a {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
-  padding-bottom: 72px;
+  /* padding-bottom: 72px; */
   margin-bottom: 72px;
 }
 
 .portfolio-item {
-  display: flex;
+  /* display: flex; */
   gap: 24px;
   width: calc((100% - 48px) / 3);
 }
@@ -371,6 +374,7 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;.
 }
 
 .footer-logo {
